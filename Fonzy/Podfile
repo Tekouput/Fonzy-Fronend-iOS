@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Fonzy' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Fonzy
+
+  target 'FonzyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FonzyUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'Google/SignIn'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+pod 'JVFloatLabeledTextField'
+pod 'XLPagerTabStrip', '~> 7.0'
+pod 'Pulley', '~> 1.4'
+pod 'Cosmos', git: 'https://github.com/marketplacer/Cosmos.git', tag: '8.0.2'
+pod 'HockeySDK', '~> 5.0.0'
+pod 'JTAppleCalendar', '~> 7.1'
+pod 'SwiftKeychainWrapper', '~> 3.0'
+pod 'Stripe'
+
+end

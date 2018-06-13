@@ -1,0 +1,1340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D91317C44DC296394E14B25 /* Pods_FonzyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10C59A250DFEA06AEFF7468 /* Pods_FonzyUITests.framework */; };
+		500096231FB3E20B00176CC9 /* shopPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500096221FB3E20B00176CC9 /* shopPictureCollectionViewCell.swift */; };
+		500DAED52028F05000750735 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DAED42028F05000750735 /* FilterViewController.swift */; };
+		500DAED720290FF400750735 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DAED620290FF400750735 /* MenuViewController.swift */; };
+		50107E0B202E434300D43F98 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50107E0A202E434300D43F98 /* TeamTableViewController.swift */; };
+		501516E62031C63A008ACEB7 /* InstagramFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501516E52031C63A008ACEB7 /* InstagramFeed.swift */; };
+		501FE9752034B8DA00B3719B /* JSONShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501FE9742034B8DA00B3719B /* JSONShop.swift */; };
+		5080B57620264BAD00A7C06B /* FonzyCutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080B57520264BAD00A7C06B /* FonzyCutsViewController.swift */; };
+		50944F452020BAC700F57741 /* HairdresserScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50944F442020BAC700F57741 /* HairdresserScheduleViewController.swift */; };
+		509FA4DB2024C90B0041C8DE /* AvailabilityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FA4DA2024C90B0041C8DE /* AvailabilityTableViewController.swift */; };
+		509FA4DD2024CA920041C8DE /* AvailabilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FA4DC2024CA920041C8DE /* AvailabilityTableViewCell.swift */; };
+		50AE3FDF2035CF9500937417 /* GoogleMapShopProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE3FDE2035CF9500937417 /* GoogleMapShopProfileViewController.swift */; };
+		50B109F41FBE292600EAC595 /* notificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B109F31FBE292600EAC595 /* notificationTableViewCell.swift */; };
+		50B109FA1FBE2AC300EAC595 /* notificationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B109F91FBE2AC300EAC595 /* notificationTableView.swift */; };
+		50B109FC1FBE383D00EAC595 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B109FB1FBE383D00EAC595 /* Notification.swift */; };
+		50B4F9901FBE584900343539 /* notificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4F98F1FBE584900343539 /* notificationsTableViewController.swift */; };
+		50B4F9921FBE5EDF00343539 /* serviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4F9911FBE5EDF00343539 /* serviceTableViewCell.swift */; };
+		50D02D4820265B8A0007C0C0 /* FonzyCutsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D02D4720265B8A0007C0C0 /* FonzyCutsCollectionViewCell.swift */; };
+		50EEDBDF2062E3100009B41D /* StripeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEDBDE2062E3100009B41D /* StripeViewController.swift */; };
+		6F05873BE6B9F4C400F687B1 /* Pods_Fonzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C24B6ADE1519E35DA3D177 /* Pods_Fonzy.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		888355264BE433C23D3ED47D /* Pods_FonzyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB9AE628390139F49371F78 /* Pods_FonzyTests.framework */; };
+		DD382A221F373F0B0040F8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD382A211F373F0B0040F8E0 /* AppDelegate.swift */; };
+		DD382A241F373F0B0040F8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD382A231F373F0B0040F8E0 /* ViewController.swift */; };
+		DD382A271F373F0C0040F8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD382A251F373F0B0040F8E0 /* Main.storyboard */; };
+		DD382A2A1F373F0C0040F8E0 /* Fonzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD382A281F373F0C0040F8E0 /* Fonzy.xcdatamodeld */; };
+		DD382A2F1F373F0C0040F8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD382A2D1F373F0C0040F8E0 /* LaunchScreen.storyboard */; };
+		DD382A3A1F373F0C0040F8E0 /* FonzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD382A391F373F0C0040F8E0 /* FonzyTests.swift */; };
+		DD382A451F373F0C0040F8E0 /* FonzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD382A441F373F0C0040F8E0 /* FonzyUITests.swift */; };
+		DD632D151F6F113700362383 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD632D141F6F113700362383 /* UserProfile.storyboard */; };
+		DD632D171F71ABCA00362383 /* ShopOwner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD632D161F71ABCA00362383 /* ShopOwner.storyboard */; };
+		DD632D1A1F71B1D400362383 /* businessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD632D191F71B1D400362383 /* businessViewController.swift */; };
+		DD632D1E1F71CD6500362383 /* adminShopProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD632D1D1F71CD6500362383 /* adminShopProfileViewController.swift */; };
+		DD632D201F71D6EF00362383 /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD632D1F1F71D6EF00362383 /* userProfileViewController.swift */; };
+		DDB6E62E1F49BCCC00C0D8D9 /* textFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E62D1F49BCCC00C0D8D9 /* textFieldExtension.swift */; };
+		DDB6E6321F49C31600C0D8D9 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E6311F49C31600C0D8D9 /* signUpViewController.swift */; };
+		DDB6E6381F4AAFEE00C0D8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB6E6371F4AAFEE00C0D8D9 /* Assets.xcassets */; };
+		DDB6E63A1F4AB42400C0D8D9 /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E6391F4AB42400C0D8D9 /* createAccountViewController.swift */; };
+		DDB6E63C1F4B7FD800C0D8D9 /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E63B1F4B7FD800C0D8D9 /* locationViewController.swift */; };
+		DDCD7F7C1F6B90E0003FA1C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F7B1F6B90E0003FA1C4 /* HomeViewController.swift */; };
+		DDCD7F7F1F6B95B9003FA1C4 /* SearchOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F7E1F6B95B9003FA1C4 /* SearchOptionsViewController.swift */; };
+		DDCD7F811F6B960B003FA1C4 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F801F6B960B003FA1C4 /* DealsViewController.swift */; };
+		DDCD7F831F6B9653003FA1C4 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F821F6B9653003FA1C4 /* NotificationsViewController.swift */; };
+		DDCD7F851F6C6B8C003FA1C4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F841F6C6B8C003FA1C4 /* MapViewController.swift */; };
+		DDCD7F871F6C8F62003FA1C4 /* ShopProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7F861F6C8F62003FA1C4 /* ShopProfileViewController.swift */; };
+		DDF9EE711F42AC00008A1A10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF9EE701F42AC00008A1A10 /* GoogleService-Info.plist */; };
+		DDF9EE771F44D9F2008A1A10 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9EE761F44D9F2008A1A10 /* loginViewController.swift */; };
+		ED1888B320B5F7EE00F3DE78 /* UserMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1888B220B5F7EE00F3DE78 /* UserMethods.swift */; };
+		ED1BC8E21FC1B28B00F25485 /* clientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BC8E11FC1B28B00F25485 /* clientTableViewCell.swift */; };
+		ED1BC8E41FC1B5CF00F25485 /* myClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BC8E31FC1B5CF00F25485 /* myClientsViewController.swift */; };
+		ED1BC8E61FC1BE8E00F25485 /* addClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BC8E51FC1BE8E00F25485 /* addClientViewController.swift */; };
+		ED1DFA9C1FDA96CC00213272 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1DFA9B1FDA96CC00213272 /* Bookmark.swift */; };
+		ED1DFA9E1FDAB59300213272 /* bookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1DFA9D1FDAB59300213272 /* bookmarkTableViewController.swift */; };
+		ED1DFAA01FDAB61600213272 /* bookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1DFA9F1FDAB61600213272 /* bookmarkTableViewCell.swift */; };
+		ED23F4D11FC1423800AF8B0E /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED23F4D01FC1423800AF8B0E /* calendarViewController.swift */; };
+		ED27497F1FDAC88800D88EF4 /* shopProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27497E1FDAC88800D88EF4 /* shopProfileNavigationController.swift */; };
+		ED2749821FDAD5D700D88EF4 /* myBookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2749811FDAD5D700D88EF4 /* myBookingTableViewCell.swift */; };
+		ED2749841FDAD78D00D88EF4 /* bookingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2749831FDAD78D00D88EF4 /* bookingsTableViewController.swift */; };
+		ED2749861FDAD84C00D88EF4 /* booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2749851FDAD84C00D88EF4 /* booking.swift */; };
+		ED2749881FDB06F600D88EF4 /* setBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2749871FDB06F600D88EF4 /* setBookingViewController.swift */; };
+		ED27498A1FDB521300D88EF4 /* Hairdresser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2749891FDB521300D88EF4 /* Hairdresser.swift */; };
+		ED27498C1FDB952000D88EF4 /* editUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27498B1FDB952000D88EF4 /* editUserProfileViewController.swift */; };
+		ED3DE3E9204F12E600DE3C7F /* RolePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DE3E8204F12E600DE3C7F /* RolePickerViewController.swift */; };
+		ED4077B61FDBDD7B00A60DCE /* manualBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4077B51FDBDD7B00A60DCE /* manualBookingViewController.swift */; };
+		ED4077BA1FDC70AA00A60DCE /* editShopProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4077B91FDC70AA00A60DCE /* editShopProfileViewController.swift */; };
+		ED4077BC1FDC782900A60DCE /* editImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4077BB1FDC782900A60DCE /* editImagesViewController.swift */; };
+		ED468F7B205460E80088916C /* addHairdresserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED468F7A205460E80088916C /* addHairdresserViewController.swift */; };
+		ED468F7D205468AE0088916C /* HairdresserSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED468F7C205468AE0088916C /* HairdresserSearchTableViewCell.swift */; };
+		ED468F7F2054C5890088916C /* AddMyClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED468F7E2054C5890088916C /* AddMyClientViewController.swift */; };
+		ED539A371FDC817800295449 /* editServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED539A361FDC817800295449 /* editServicesViewController.swift */; };
+		ED539A391FDC8AD800295449 /* editShopTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED539A381FDC8AD800295449 /* editShopTeamTableViewController.swift */; };
+		ED5F50AA1FB680140091A6C8 /* FonzyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F50A91FB680140091A6C8 /* FonzyHomeViewController.swift */; };
+		ED5F69A9201CEBD3004CFEF5 /* AddServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F69A8201CEBD3004CFEF5 /* AddServiceViewController.swift */; };
+		ED5F69AB201D48A9004CFEF5 /* editShopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F69AA201D48A8004CFEF5 /* editShopInfoViewController.swift */; };
+		ED6693FA205AFF6D003E7B5F /* ImageMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6693F9205AFF6D003E7B5F /* ImageMethods.swift */; };
+		ED66B6681FC1F01600F6E70C /* bookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED66B6671FC1F01600F6E70C /* bookViewController.swift */; };
+		ED6B2A561FD9C39500C7DC44 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B2A551FD9C39400C7DC44 /* Deal.swift */; };
+		ED6C72E41FC0E2DE007BE92B /* hairdresserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C72E31FC0E2DE007BE92B /* hairdresserCollectionViewCell.swift */; };
+		ED6E63DE1FB2AA1A0028A667 /* createShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6E63DD1FB2AA1A0028A667 /* createShopViewController.swift */; };
+		ED727EBC2051DD1C00375C40 /* InfoMapShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EBB2051DD1C00375C40 /* InfoMapShopViewController.swift */; };
+		ED727EBE2051DF5E00375C40 /* InfoMapShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EBD2051DF5E00375C40 /* InfoMapShopTableViewController.swift */; };
+		ED727EC02052BF5E00375C40 /* BookingNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EBF2052BF5E00375C40 /* BookingNavigationViewController.swift */; };
+		ED727EC220537AE100375C40 /* AdminShopPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EC120537AE100375C40 /* AdminShopPickerViewController.swift */; };
+		ED727EC420537AFA00375C40 /* ShopPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EC320537AFA00375C40 /* ShopPickerTableViewCell.swift */; };
+		ED727EC620539EB000375C40 /* shopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EC520539EB000375C40 /* shopInfoViewController.swift */; };
+		ED727EC82053A79800375C40 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED727EC72053A79800375C40 /* RatingViewController.swift */; };
+		ED761CDE1FDA0579008BB9CF /* DealsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED761CDD1FDA0579008BB9CF /* DealsTableViewCell.swift */; };
+		ED78793F1FDBD1AD00F20A45 /* hairdresserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78793E1FDBD1AD00F20A45 /* hairdresserTableViewCell.swift */; };
+		ED7879411FDBD1C300F20A45 /* hairdresserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7879401FDBD1C300F20A45 /* hairdresserTableViewController.swift */; };
+		ED7879451FDBD92300F20A45 /* pickServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7879441FDBD92300F20A45 /* pickServicesViewController.swift */; };
+		ED791106205E9F8D00DB6D6B /* ShopImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED791105205E9F8C00DB6D6B /* ShopImagesViewController.swift */; };
+		ED791108205EA47400DB6D6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED791107205EA47400DB6D6B /* MapKit.framework */; };
+		ED8512391FD2DF8E00098740 /* shopPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8512381FD2DF8E00098740 /* shopPickerViewController.swift */; };
+		ED85123B1FD36D8F00098740 /* addShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED85123A1FD36D8F00098740 /* addShopViewController.swift */; };
+		ED8610811FC14042001B98AE /* calendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8610801FC14042001B98AE /* calendarCollectionViewCell.swift */; };
+		ED8A2BC81FBF6B6800A74A18 /* servicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A2BC71FBF6B6800A74A18 /* servicesTableViewController.swift */; };
+		ED8FE015201DFFDF00FEFFD3 /* EditHairdresserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FE014201DFFDF00FEFFD3 /* EditHairdresserProfileViewController.swift */; };
+		ED8FE051201F714200FEFFD3 /* HamburguerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FE050201F714200FEFFD3 /* HamburguerMenuViewController.swift */; };
+		ED8FE053201FCE2400FEFFD3 /* ServicePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FE052201FCE2400FEFFD3 /* ServicePickerViewController.swift */; };
+		ED8FE055201FCE4700FEFFD3 /* QuickServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FE054201FCE4700FEFFD3 /* QuickServiceTableViewCell.swift */; };
+		ED8FE057201FF20E00FEFFD3 /* ScheduleConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FE056201FF20E00FEFFD3 /* ScheduleConfirmationViewController.swift */; };
+		ED90EE311FB4ADB600478E06 /* shopsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90EE301FB4ADB600478E06 /* shopsTableViewController.swift */; };
+		ED90EE331FB4E45F00478E06 /* shopsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90EE321FB4E45F00478E06 /* shopsTableViewCell.swift */; };
+		ED9685221FA3DDC20084C58A /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9685211FA3DDC20084C58A /* Shop.swift */; };
+		ED96854B1FA694940084C58A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED96854A1FA694940084C58A /* Service.swift */; };
+		EDA6ACC220B4398300AE63E1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA6ACC120B4398300AE63E1 /* GoogleMaps.framework */; };
+		EDA6ACC420B439C600AE63E1 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EDA6ACC320B439C600AE63E1 /* GoogleMaps.bundle */; };
+		EDA78288204C735400C292E4 /* SearchClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA78287204C735300C292E4 /* SearchClientsViewController.swift */; };
+		EDA8F6A620B4A2870059453C /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8F6A520B4A2870059453C /* NotificationCenterViewController.swift */; };
+		EDBFABE21FB0B19D0088179D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFABE11FB0B19D0088179D /* User.swift */; };
+		EDD1BB10205802F3003605CA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1BB0F205802F2003605CA /* Address.swift */; };
+		EDDB52822066DE220050A0CB /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52812066DE220050A0CB /* PaymentMethods.swift */; };
+		EDDB5284206740FF0050A0CB /* ClientPaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5283206740FF0050A0CB /* ClientPaymentsViewController.swift */; };
+		EDDB5286206741FA0050A0CB /* CreditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5285206741FA0050A0CB /* CreditCardTableViewCell.swift */; };
+		EDDB52882067F8C50050A0CB /* NotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52872067F8C50050A0CB /* NotificationSettingsViewController.swift */; };
+		EDDB528A206848BF0050A0CB /* ShopMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5289206848BF0050A0CB /* ShopMethods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD382A361F373F0C0040F8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD382A161F373F0B0040F8E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD382A1D1F373F0B0040F8E0;
+			remoteInfo = Fonzy;
+		};
+		DD382A411F373F0C0040F8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD382A161F373F0B0040F8E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD382A1D1F373F0B0040F8E0;
+			remoteInfo = Fonzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20AC85B100989B02E7A8442A /* Pods-FonzyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonzyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FonzyUITests/Pods-FonzyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		500096221FB3E20B00176CC9 /* shopPictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopPictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		500DAED42028F05000750735 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		500DAED620290FF400750735 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		50107E0A202E434300D43F98 /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		501516E52031C63A008ACEB7 /* InstagramFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeed.swift; sourceTree = "<group>"; };
+		501FE9742034B8DA00B3719B /* JSONShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONShop.swift; sourceTree = "<group>"; };
+		5080B57520264BAD00A7C06B /* FonzyCutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonzyCutsViewController.swift; sourceTree = "<group>"; };
+		50944F442020BAC700F57741 /* HairdresserScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairdresserScheduleViewController.swift; sourceTree = "<group>"; };
+		509FA4DA2024C90B0041C8DE /* AvailabilityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityTableViewController.swift; sourceTree = "<group>"; };
+		509FA4DC2024CA920041C8DE /* AvailabilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityTableViewCell.swift; sourceTree = "<group>"; };
+		50AE3FDE2035CF9500937417 /* GoogleMapShopProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapShopProfileViewController.swift; sourceTree = "<group>"; };
+		50B109F31FBE292600EAC595 /* notificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationTableViewCell.swift; sourceTree = "<group>"; };
+		50B109F91FBE2AC300EAC595 /* notificationTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationTableView.swift; sourceTree = "<group>"; };
+		50B109FB1FBE383D00EAC595 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		50B4F98F1FBE584900343539 /* notificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationsTableViewController.swift; sourceTree = "<group>"; };
+		50B4F9911FBE5EDF00343539 /* serviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = serviceTableViewCell.swift; sourceTree = "<group>"; };
+		50D02D4720265B8A0007C0C0 /* FonzyCutsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonzyCutsCollectionViewCell.swift; sourceTree = "<group>"; };
+		50EEDBDE2062E3100009B41D /* StripeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeViewController.swift; sourceTree = "<group>"; };
+		56A38F2978E4BB845C2A2766 /* Pods-FonzyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonzyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FonzyTests/Pods-FonzyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E613CBB6C76726C781151C9 /* Pods-FonzyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonzyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FonzyUITests/Pods-FonzyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB9AE628390139F49371F78 /* Pods_FonzyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonzyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10C59A250DFEA06AEFF7468 /* Pods_FonzyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonzyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B85F7D83008DBB2E6D113C /* Pods-Fonzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E830C872880F9170A7FE26 /* Pods-FonzyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonzyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FonzyTests/Pods-FonzyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1C24B6ADE1519E35DA3D177 /* Pods_Fonzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fonzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD382A1E1F373F0B0040F8E0 /* Fonzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD382A211F373F0B0040F8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD382A231F373F0B0040F8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD382A261F373F0B0040F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD382A291F373F0C0040F8E0 /* Fonzy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fonzy.xcdatamodel; sourceTree = "<group>"; };
+		DD382A2E1F373F0C0040F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD382A301F373F0C0040F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD382A351F373F0C0040F8E0 /* FonzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD382A391F373F0C0040F8E0 /* FonzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonzyTests.swift; sourceTree = "<group>"; };
+		DD382A3B1F373F0C0040F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD382A401F373F0C0040F8E0 /* FonzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD382A441F373F0C0040F8E0 /* FonzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonzyUITests.swift; sourceTree = "<group>"; };
+		DD382A461F373F0C0040F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD632D141F6F113700362383 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		DD632D161F71ABCA00362383 /* ShopOwner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShopOwner.storyboard; sourceTree = "<group>"; };
+		DD632D191F71B1D400362383 /* businessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = businessViewController.swift; sourceTree = "<group>"; };
+		DD632D1D1F71CD6500362383 /* adminShopProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminShopProfileViewController.swift; sourceTree = "<group>"; };
+		DD632D1F1F71D6EF00362383 /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		DDA25CB01F4279F900B61B27 /* Fonzy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fonzy.entitlements; sourceTree = "<group>"; };
+		DDB6E62D1F49BCCC00C0D8D9 /* textFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textFieldExtension.swift; sourceTree = "<group>"; };
+		DDB6E6311F49C31600C0D8D9 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		DDB6E6351F49D2B300C0D8D9 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		DDB6E6361F49D2B300C0D8D9 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		DDB6E6371F4AAFEE00C0D8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB6E6391F4AB42400C0D8D9 /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
+		DDB6E63B1F4B7FD800C0D8D9 /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		DDCD7F7B1F6B90E0003FA1C4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DDCD7F7E1F6B95B9003FA1C4 /* SearchOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOptionsViewController.swift; sourceTree = "<group>"; };
+		DDCD7F801F6B960B003FA1C4 /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		DDCD7F821F6B9653003FA1C4 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		DDCD7F841F6C6B8C003FA1C4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DDCD7F861F6C8F62003FA1C4 /* ShopProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopProfileViewController.swift; sourceTree = "<group>"; };
+		DDF9EE701F42AC00008A1A10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDF9EE721F42B0F5008A1A10 /* Fonzy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fonzy-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDF9EE761F44D9F2008A1A10 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E21741CAAD33E6322F9EED16 /* Pods-Fonzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonzy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy.release.xcconfig"; sourceTree = "<group>"; };
+		ED1888B220B5F7EE00F3DE78 /* UserMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMethods.swift; sourceTree = "<group>"; };
+		ED1BC8E11FC1B28B00F25485 /* clientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clientTableViewCell.swift; sourceTree = "<group>"; };
+		ED1BC8E31FC1B5CF00F25485 /* myClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClientsViewController.swift; sourceTree = "<group>"; };
+		ED1BC8E51FC1BE8E00F25485 /* addClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addClientViewController.swift; sourceTree = "<group>"; };
+		ED1DFA9B1FDA96CC00213272 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		ED1DFA9D1FDAB59300213272 /* bookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkTableViewController.swift; sourceTree = "<group>"; };
+		ED1DFA9F1FDAB61600213272 /* bookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		ED23F4D01FC1423800AF8B0E /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		ED27497E1FDAC88800D88EF4 /* shopProfileNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopProfileNavigationController.swift; sourceTree = "<group>"; };
+		ED2749811FDAD5D700D88EF4 /* myBookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBookingTableViewCell.swift; sourceTree = "<group>"; };
+		ED2749831FDAD78D00D88EF4 /* bookingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingsTableViewController.swift; sourceTree = "<group>"; };
+		ED2749851FDAD84C00D88EF4 /* booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booking.swift; sourceTree = "<group>"; };
+		ED2749871FDB06F600D88EF4 /* setBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setBookingViewController.swift; sourceTree = "<group>"; };
+		ED2749891FDB521300D88EF4 /* Hairdresser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hairdresser.swift; sourceTree = "<group>"; };
+		ED27498B1FDB952000D88EF4 /* editUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editUserProfileViewController.swift; sourceTree = "<group>"; };
+		ED3DE3E8204F12E600DE3C7F /* RolePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePickerViewController.swift; sourceTree = "<group>"; };
+		ED4077B51FDBDD7B00A60DCE /* manualBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manualBookingViewController.swift; sourceTree = "<group>"; };
+		ED4077B91FDC70AA00A60DCE /* editShopProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editShopProfileViewController.swift; sourceTree = "<group>"; };
+		ED4077BB1FDC782900A60DCE /* editImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editImagesViewController.swift; sourceTree = "<group>"; };
+		ED468F7A205460E80088916C /* addHairdresserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addHairdresserViewController.swift; sourceTree = "<group>"; };
+		ED468F7C205468AE0088916C /* HairdresserSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairdresserSearchTableViewCell.swift; sourceTree = "<group>"; };
+		ED468F7E2054C5890088916C /* AddMyClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMyClientViewController.swift; sourceTree = "<group>"; };
+		ED539A361FDC817800295449 /* editServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editServicesViewController.swift; sourceTree = "<group>"; };
+		ED539A381FDC8AD800295449 /* editShopTeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editShopTeamTableViewController.swift; sourceTree = "<group>"; };
+		ED5F50A91FB680140091A6C8 /* FonzyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonzyHomeViewController.swift; sourceTree = "<group>"; };
+		ED5F69A8201CEBD3004CFEF5 /* AddServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceViewController.swift; sourceTree = "<group>"; };
+		ED5F69AA201D48A8004CFEF5 /* editShopInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editShopInfoViewController.swift; sourceTree = "<group>"; };
+		ED6693F9205AFF6D003E7B5F /* ImageMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMethods.swift; sourceTree = "<group>"; };
+		ED66B6671FC1F01600F6E70C /* bookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookViewController.swift; sourceTree = "<group>"; };
+		ED6B2A551FD9C39400C7DC44 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		ED6C72E31FC0E2DE007BE92B /* hairdresserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairdresserCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED6E63DD1FB2AA1A0028A667 /* createShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createShopViewController.swift; sourceTree = "<group>"; };
+		ED727EBB2051DD1C00375C40 /* InfoMapShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMapShopViewController.swift; sourceTree = "<group>"; };
+		ED727EBD2051DF5E00375C40 /* InfoMapShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMapShopTableViewController.swift; sourceTree = "<group>"; };
+		ED727EBF2052BF5E00375C40 /* BookingNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingNavigationViewController.swift; sourceTree = "<group>"; };
+		ED727EC120537AE100375C40 /* AdminShopPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminShopPickerViewController.swift; sourceTree = "<group>"; };
+		ED727EC320537AFA00375C40 /* ShopPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPickerTableViewCell.swift; sourceTree = "<group>"; };
+		ED727EC520539EB000375C40 /* shopInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopInfoViewController.swift; sourceTree = "<group>"; };
+		ED727EC72053A79800375C40 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		ED761CDD1FDA0579008BB9CF /* DealsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsTableViewCell.swift; sourceTree = "<group>"; };
+		ED78793E1FDBD1AD00F20A45 /* hairdresserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairdresserTableViewCell.swift; sourceTree = "<group>"; };
+		ED7879401FDBD1C300F20A45 /* hairdresserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairdresserTableViewController.swift; sourceTree = "<group>"; };
+		ED7879441FDBD92300F20A45 /* pickServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickServicesViewController.swift; sourceTree = "<group>"; };
+		ED791105205E9F8C00DB6D6B /* ShopImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopImagesViewController.swift; sourceTree = "<group>"; };
+		ED791107205EA47400DB6D6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED8512381FD2DF8E00098740 /* shopPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopPickerViewController.swift; sourceTree = "<group>"; };
+		ED85123A1FD36D8F00098740 /* addShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addShopViewController.swift; sourceTree = "<group>"; };
+		ED8610801FC14042001B98AE /* calendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED8A2BC71FBF6B6800A74A18 /* servicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servicesTableViewController.swift; sourceTree = "<group>"; };
+		ED8FE014201DFFDF00FEFFD3 /* EditHairdresserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHairdresserProfileViewController.swift; sourceTree = "<group>"; };
+		ED8FE050201F714200FEFFD3 /* HamburguerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguerMenuViewController.swift; sourceTree = "<group>"; };
+		ED8FE052201FCE2400FEFFD3 /* ServicePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePickerViewController.swift; sourceTree = "<group>"; };
+		ED8FE054201FCE4700FEFFD3 /* QuickServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickServiceTableViewCell.swift; sourceTree = "<group>"; };
+		ED8FE056201FF20E00FEFFD3 /* ScheduleConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleConfirmationViewController.swift; sourceTree = "<group>"; };
+		ED90EE301FB4ADB600478E06 /* shopsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopsTableViewController.swift; sourceTree = "<group>"; };
+		ED90EE321FB4E45F00478E06 /* shopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopsTableViewCell.swift; sourceTree = "<group>"; };
+		ED9685211FA3DDC20084C58A /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		ED96854A1FA694940084C58A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EDA6ACC120B4398300AE63E1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		EDA6ACC320B439C600AE63E1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		EDA78287204C735300C292E4 /* SearchClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchClientsViewController.swift; sourceTree = "<group>"; };
+		EDA8F6A520B4A2870059453C /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		EDBFABE11FB0B19D0088179D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EDD1BB0F205802F2003605CA /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		EDDB52812066DE220050A0CB /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
+		EDDB5283206740FF0050A0CB /* ClientPaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientPaymentsViewController.swift; sourceTree = "<group>"; };
+		EDDB5285206741FA0050A0CB /* CreditCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTableViewCell.swift; sourceTree = "<group>"; };
+		EDDB52872067F8C50050A0CB /* NotificationSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		EDDB5289206848BF0050A0CB /* ShopMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMethods.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD382A1B1F373F0B0040F8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6ACC220B4398300AE63E1 /* GoogleMaps.framework in Frameworks */,
+				ED791108205EA47400DB6D6B /* MapKit.framework in Frameworks */,
+				6F05873BE6B9F4C400F687B1 /* Pods_Fonzy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A321F373F0C0040F8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888355264BE433C23D3ED47D /* Pods_FonzyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A3D1F373F0C0040F8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D91317C44DC296394E14B25 /* Pods_FonzyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BACC2D18F4D8A04CFFF1A9BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2B85F7D83008DBB2E6D113C /* Pods-Fonzy.debug.xcconfig */,
+				E21741CAAD33E6322F9EED16 /* Pods-Fonzy.release.xcconfig */,
+				56A38F2978E4BB845C2A2766 /* Pods-FonzyTests.debug.xcconfig */,
+				B6E830C872880F9170A7FE26 /* Pods-FonzyTests.release.xcconfig */,
+				20AC85B100989B02E7A8442A /* Pods-FonzyUITests.debug.xcconfig */,
+				5E613CBB6C76726C781151C9 /* Pods-FonzyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C54E8F710DD8343AB19A95BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED791107205EA47400DB6D6B /* MapKit.framework */,
+				D1C24B6ADE1519E35DA3D177 /* Pods_Fonzy.framework */,
+				6AB9AE628390139F49371F78 /* Pods_FonzyTests.framework */,
+				A10C59A250DFEA06AEFF7468 /* Pods_FonzyUITests.framework */,
+				EDA6ACC320B439C600AE63E1 /* GoogleMaps.bundle */,
+				EDA6ACC120B4398300AE63E1 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD382A151F373F0B0040F8E0 = {
+			isa = PBXGroup;
+			children = (
+				DD382A201F373F0B0040F8E0 /* Fonzy */,
+				DD382A381F373F0C0040F8E0 /* FonzyTests */,
+				DD382A431F373F0C0040F8E0 /* FonzyUITests */,
+				DD382A1F1F373F0B0040F8E0 /* Products */,
+				BACC2D18F4D8A04CFFF1A9BA /* Pods */,
+				C54E8F710DD8343AB19A95BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD382A1F1F373F0B0040F8E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD382A1E1F373F0B0040F8E0 /* Fonzy.app */,
+				DD382A351F373F0C0040F8E0 /* FonzyTests.xctest */,
+				DD382A401F373F0C0040F8E0 /* FonzyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD382A201F373F0B0040F8E0 /* Fonzy */ = {
+			isa = PBXGroup;
+			children = (
+				DDA25CB01F4279F900B61B27 /* Fonzy.entitlements */,
+				DD382A211F373F0B0040F8E0 /* AppDelegate.swift */,
+				DDF9EE781F44DA0F008A1A10 /* Controllers */,
+				DDF9EE791F44DA1F008A1A10 /* Views */,
+				ED9685231FA3E6510084C58A /* Models */,
+				DDF9EE7A1F44DA31008A1A10 /* Supporting Files */,
+			);
+			path = Fonzy;
+			sourceTree = "<group>";
+		};
+		DD382A381F373F0C0040F8E0 /* FonzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD382A391F373F0C0040F8E0 /* FonzyTests.swift */,
+				DD382A3B1F373F0C0040F8E0 /* Info.plist */,
+			);
+			path = FonzyTests;
+			sourceTree = "<group>";
+		};
+		DD382A431F373F0C0040F8E0 /* FonzyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD382A441F373F0C0040F8E0 /* FonzyUITests.swift */,
+				DD382A461F373F0C0040F8E0 /* Info.plist */,
+			);
+			path = FonzyUITests;
+			sourceTree = "<group>";
+		};
+		DDCD7F7D1F6B9373003FA1C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8F6A720B4A28B0059453C /* Notification */,
+				ED27497E1FDAC88800D88EF4 /* shopProfileNavigationController.swift */,
+				DDCD7F7B1F6B90E0003FA1C4 /* HomeViewController.swift */,
+				DDCD7F7E1F6B95B9003FA1C4 /* SearchOptionsViewController.swift */,
+				DDCD7F801F6B960B003FA1C4 /* DealsViewController.swift */,
+				DDCD7F821F6B9653003FA1C4 /* NotificationsViewController.swift */,
+				DDCD7F841F6C6B8C003FA1C4 /* MapViewController.swift */,
+				DDCD7F861F6C8F62003FA1C4 /* ShopProfileViewController.swift */,
+				ED90EE301FB4ADB600478E06 /* shopsTableViewController.swift */,
+				ED90EE321FB4E45F00478E06 /* shopsTableViewCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DDF9EE781F44DA0F008A1A10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED78793D1FDBD18400F20A45 /* ShopProfile */,
+				ED2749801FDAD5B400D88EF4 /* Booking */,
+				ED8512371FD2DF5700098740 /* SignUp */,
+				DDCD7F7D1F6B9373003FA1C4 /* Home */,
+				DD632D191F71B1D400362383 /* businessViewController.swift */,
+				ED4077B81FDC6FA800A60DCE /* ShopAdmin */,
+				DD632D1F1F71D6EF00362383 /* userProfileViewController.swift */,
+				ED6E63DD1FB2AA1A0028A667 /* createShopViewController.swift */,
+				500096221FB3E20B00176CC9 /* shopPictureCollectionViewCell.swift */,
+				ED5F50A91FB680140091A6C8 /* FonzyHomeViewController.swift */,
+				50B109F31FBE292600EAC595 /* notificationTableViewCell.swift */,
+				50B109F91FBE2AC300EAC595 /* notificationTableView.swift */,
+				50B4F98F1FBE584900343539 /* notificationsTableViewController.swift */,
+				50B4F9911FBE5EDF00343539 /* serviceTableViewCell.swift */,
+				ED8A2BC71FBF6B6800A74A18 /* servicesTableViewController.swift */,
+				ED6C72E31FC0E2DE007BE92B /* hairdresserCollectionViewCell.swift */,
+				ED8610801FC14042001B98AE /* calendarCollectionViewCell.swift */,
+				ED23F4D01FC1423800AF8B0E /* calendarViewController.swift */,
+				ED1BC8E11FC1B28B00F25485 /* clientTableViewCell.swift */,
+				ED1BC8E31FC1B5CF00F25485 /* myClientsViewController.swift */,
+				ED1BC8E51FC1BE8E00F25485 /* addClientViewController.swift */,
+				ED66B6671FC1F01600F6E70C /* bookViewController.swift */,
+				ED761CDD1FDA0579008BB9CF /* DealsTableViewCell.swift */,
+				ED1DFA9D1FDAB59300213272 /* bookmarkTableViewController.swift */,
+				ED1DFA9F1FDAB61600213272 /* bookmarkTableViewCell.swift */,
+				ED27498B1FDB952000D88EF4 /* editUserProfileViewController.swift */,
+				500DAED42028F05000750735 /* FilterViewController.swift */,
+				500DAED620290FF400750735 /* MenuViewController.swift */,
+				50107E0A202E434300D43F98 /* TeamTableViewController.swift */,
+				EDDB5283206740FF0050A0CB /* ClientPaymentsViewController.swift */,
+				EDDB5285206741FA0050A0CB /* CreditCardTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DDF9EE791F44DA1F008A1A10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD382A251F373F0B0040F8E0 /* Main.storyboard */,
+				DD632D141F6F113700362383 /* UserProfile.storyboard */,
+				DD632D161F71ABCA00362383 /* ShopOwner.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DDF9EE7A1F44DA31008A1A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6E6371F4AAFEE00C0D8D9 /* Assets.xcassets */,
+				DD382A2D1F373F0C0040F8E0 /* LaunchScreen.storyboard */,
+				DD382A301F373F0C0040F8E0 /* Info.plist */,
+				DD382A281F373F0C0040F8E0 /* Fonzy.xcdatamodeld */,
+				DDF9EE701F42AC00008A1A10 /* GoogleService-Info.plist */,
+				DDB6E6351F49D2B300C0D8D9 /* JVFloatLabeledTextField.h */,
+				DDB6E6361F49D2B300C0D8D9 /* JVFloatLabeledTextView.h */,
+				DDF9EE721F42B0F5008A1A10 /* Fonzy-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED2749801FDAD5B400D88EF4 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				ED2749811FDAD5D700D88EF4 /* myBookingTableViewCell.swift */,
+				ED2749831FDAD78D00D88EF4 /* bookingsTableViewController.swift */,
+				ED2749871FDB06F600D88EF4 /* setBookingViewController.swift */,
+				ED727EBF2052BF5E00375C40 /* BookingNavigationViewController.swift */,
+				50EEDBDE2062E3100009B41D /* StripeViewController.swift */,
+			);
+			name = Booking;
+			sourceTree = "<group>";
+		};
+		ED4077B81FDC6FA800A60DCE /* ShopAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				DD632D1D1F71CD6500362383 /* adminShopProfileViewController.swift */,
+				ED4077B91FDC70AA00A60DCE /* editShopProfileViewController.swift */,
+				ED4077BB1FDC782900A60DCE /* editImagesViewController.swift */,
+				ED539A361FDC817800295449 /* editServicesViewController.swift */,
+				ED539A381FDC8AD800295449 /* editShopTeamTableViewController.swift */,
+				ED5F69A8201CEBD3004CFEF5 /* AddServiceViewController.swift */,
+				ED5F69AA201D48A8004CFEF5 /* editShopInfoViewController.swift */,
+				ED8FE014201DFFDF00FEFFD3 /* EditHairdresserProfileViewController.swift */,
+				ED8FE050201F714200FEFFD3 /* HamburguerMenuViewController.swift */,
+				ED8FE052201FCE2400FEFFD3 /* ServicePickerViewController.swift */,
+				ED8FE054201FCE4700FEFFD3 /* QuickServiceTableViewCell.swift */,
+				ED8FE056201FF20E00FEFFD3 /* ScheduleConfirmationViewController.swift */,
+				50944F442020BAC700F57741 /* HairdresserScheduleViewController.swift */,
+				509FA4DA2024C90B0041C8DE /* AvailabilityTableViewController.swift */,
+				509FA4DC2024CA920041C8DE /* AvailabilityTableViewCell.swift */,
+				5080B57520264BAD00A7C06B /* FonzyCutsViewController.swift */,
+				50D02D4720265B8A0007C0C0 /* FonzyCutsCollectionViewCell.swift */,
+				EDA78287204C735300C292E4 /* SearchClientsViewController.swift */,
+				ED727EC120537AE100375C40 /* AdminShopPickerViewController.swift */,
+				ED727EC320537AFA00375C40 /* ShopPickerTableViewCell.swift */,
+				ED468F7A205460E80088916C /* addHairdresserViewController.swift */,
+				ED468F7C205468AE0088916C /* HairdresserSearchTableViewCell.swift */,
+				ED468F7E2054C5890088916C /* AddMyClientViewController.swift */,
+				EDDB52872067F8C50050A0CB /* NotificationSettingsViewController.swift */,
+			);
+			name = ShopAdmin;
+			sourceTree = "<group>";
+		};
+		ED6693FB205AFF75003E7B5F /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				ED6693F9205AFF6D003E7B5F /* ImageMethods.swift */,
+				EDDB52812066DE220050A0CB /* PaymentMethods.swift */,
+				EDDB5289206848BF0050A0CB /* ShopMethods.swift */,
+				ED1888B220B5F7EE00F3DE78 /* UserMethods.swift */,
+			);
+			name = Queries;
+			sourceTree = "<group>";
+		};
+		ED78793D1FDBD18400F20A45 /* ShopProfile */ = {
+			isa = PBXGroup;
+			children = (
+				ED78793E1FDBD1AD00F20A45 /* hairdresserTableViewCell.swift */,
+				ED7879401FDBD1C300F20A45 /* hairdresserTableViewController.swift */,
+				ED7879441FDBD92300F20A45 /* pickServicesViewController.swift */,
+				ED4077B51FDBDD7B00A60DCE /* manualBookingViewController.swift */,
+				50AE3FDE2035CF9500937417 /* GoogleMapShopProfileViewController.swift */,
+				ED727EBB2051DD1C00375C40 /* InfoMapShopViewController.swift */,
+				ED727EBD2051DF5E00375C40 /* InfoMapShopTableViewController.swift */,
+				ED727EC520539EB000375C40 /* shopInfoViewController.swift */,
+				ED727EC72053A79800375C40 /* RatingViewController.swift */,
+				ED791105205E9F8C00DB6D6B /* ShopImagesViewController.swift */,
+			);
+			name = ShopProfile;
+			sourceTree = "<group>";
+		};
+		ED8512371FD2DF5700098740 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6E6311F49C31600C0D8D9 /* signUpViewController.swift */,
+				DD382A231F373F0B0040F8E0 /* ViewController.swift */,
+				DDF9EE761F44D9F2008A1A10 /* loginViewController.swift */,
+				DDB6E62D1F49BCCC00C0D8D9 /* textFieldExtension.swift */,
+				DDB6E6391F4AB42400C0D8D9 /* createAccountViewController.swift */,
+				DDB6E63B1F4B7FD800C0D8D9 /* locationViewController.swift */,
+				ED8512381FD2DF8E00098740 /* shopPickerViewController.swift */,
+				ED85123A1FD36D8F00098740 /* addShopViewController.swift */,
+				ED3DE3E8204F12E600DE3C7F /* RolePickerViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		ED9685231FA3E6510084C58A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED6693FB205AFF75003E7B5F /* Queries */,
+				ED9685211FA3DDC20084C58A /* Shop.swift */,
+				ED96854A1FA694940084C58A /* Service.swift */,
+				EDBFABE11FB0B19D0088179D /* User.swift */,
+				50B109FB1FBE383D00EAC595 /* Notification.swift */,
+				ED6B2A551FD9C39400C7DC44 /* Deal.swift */,
+				ED1DFA9B1FDA96CC00213272 /* Bookmark.swift */,
+				ED2749851FDAD84C00D88EF4 /* booking.swift */,
+				ED2749891FDB521300D88EF4 /* Hairdresser.swift */,
+				501516E52031C63A008ACEB7 /* InstagramFeed.swift */,
+				501FE9742034B8DA00B3719B /* JSONShop.swift */,
+				EDD1BB0F205802F2003605CA /* Address.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDA8F6A720B4A28B0059453C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8F6A520B4A2870059453C /* NotificationCenterViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD382A1D1F373F0B0040F8E0 /* Fonzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD382A491F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "Fonzy" */;
+			buildPhases = (
+				5CC885E01A41FE27CDC65AD3 /* [CP] Check Pods Manifest.lock */,
+				DD382A1A1F373F0B0040F8E0 /* Sources */,
+				DD382A1B1F373F0B0040F8E0 /* Frameworks */,
+				DD382A1C1F373F0B0040F8E0 /* Resources */,
+				CD20F1D7546E9F6471C28137 /* [CP] Embed Pods Frameworks */,
+				2941CDE4C49313AD8E0ACD22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fonzy;
+			productName = Fonzy;
+			productReference = DD382A1E1F373F0B0040F8E0 /* Fonzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD382A341F373F0C0040F8E0 /* FonzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD382A4C1F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "FonzyTests" */;
+			buildPhases = (
+				110C87B02DEFE57E6F3B9541 /* [CP] Check Pods Manifest.lock */,
+				DD382A311F373F0C0040F8E0 /* Sources */,
+				DD382A321F373F0C0040F8E0 /* Frameworks */,
+				DD382A331F373F0C0040F8E0 /* Resources */,
+				CF6E0335154C003E5649A591 /* [CP] Embed Pods Frameworks */,
+				CD786B333E032053D7C9D33E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD382A371F373F0C0040F8E0 /* PBXTargetDependency */,
+			);
+			name = FonzyTests;
+			productName = FonzyTests;
+			productReference = DD382A351F373F0C0040F8E0 /* FonzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD382A3F1F373F0C0040F8E0 /* FonzyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD382A4F1F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "FonzyUITests" */;
+			buildPhases = (
+				E0917E7246DEB74B67BC958F /* [CP] Check Pods Manifest.lock */,
+				DD382A3C1F373F0C0040F8E0 /* Sources */,
+				DD382A3D1F373F0C0040F8E0 /* Frameworks */,
+				DD382A3E1F373F0C0040F8E0 /* Resources */,
+				696FB8AD51AB95E4ACB87C7A /* [CP] Embed Pods Frameworks */,
+				8890DA07F4A0C8CA01AC0315 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD382A421F373F0C0040F8E0 /* PBXTargetDependency */,
+			);
+			name = FonzyUITests;
+			productName = FonzyUITests;
+			productReference = DD382A401F373F0C0040F8E0 /* FonzyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD382A161F373F0B0040F8E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Biocore;
+				TargetAttributes = {
+					DD382A1D1F373F0B0040F8E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5DTRLBMX33;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					DD382A341F373F0C0040F8E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD382A1D1F373F0B0040F8E0;
+					};
+					DD382A3F1F373F0C0040F8E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD382A1D1F373F0B0040F8E0;
+					};
+				};
+			};
+			buildConfigurationList = DD382A191F373F0B0040F8E0 /* Build configuration list for PBXProject "Fonzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD382A151F373F0B0040F8E0;
+			productRefGroup = DD382A1F1F373F0B0040F8E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD382A1D1F373F0B0040F8E0 /* Fonzy */,
+				DD382A341F373F0C0040F8E0 /* FonzyTests */,
+				DD382A3F1F373F0C0040F8E0 /* FonzyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD382A1C1F373F0B0040F8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD632D171F71ABCA00362383 /* ShopOwner.storyboard in Resources */,
+				DD382A2F1F373F0C0040F8E0 /* LaunchScreen.storyboard in Resources */,
+				DDF9EE711F42AC00008A1A10 /* GoogleService-Info.plist in Resources */,
+				DDB6E6381F4AAFEE00C0D8D9 /* Assets.xcassets in Resources */,
+				DD382A271F373F0C0040F8E0 /* Main.storyboard in Resources */,
+				DD632D151F6F113700362383 /* UserProfile.storyboard in Resources */,
+				EDA6ACC420B439C600AE63E1 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A331F373F0C0040F8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A3E1F373F0C0040F8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		110C87B02DEFE57E6F3B9541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FonzyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2941CDE4C49313AD8E0ACD22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC885E01A41FE27CDC65AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fonzy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		696FB8AD51AB95E4ACB87C7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FonzyUITests/Pods-FonzyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8890DA07F4A0C8CA01AC0315 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FonzyUITests/Pods-FonzyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD20F1D7546E9F6471C28137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fonzy/Pods-Fonzy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD786B333E032053D7C9D33E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FonzyTests/Pods-FonzyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6E0335154C003E5649A591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FonzyTests/Pods-FonzyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0917E7246DEB74B67BC958F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FonzyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD382A1A1F373F0B0040F8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6693FA205AFF6D003E7B5F /* ImageMethods.swift in Sources */,
+				ED1888B320B5F7EE00F3DE78 /* UserMethods.swift in Sources */,
+				50D02D4820265B8A0007C0C0 /* FonzyCutsCollectionViewCell.swift in Sources */,
+				ED5F50AA1FB680140091A6C8 /* FonzyHomeViewController.swift in Sources */,
+				ED8610811FC14042001B98AE /* calendarCollectionViewCell.swift in Sources */,
+				EDDB52882067F8C50050A0CB /* NotificationSettingsViewController.swift in Sources */,
+				DDB6E63A1F4AB42400C0D8D9 /* createAccountViewController.swift in Sources */,
+				ED8FE015201DFFDF00FEFFD3 /* EditHairdresserProfileViewController.swift in Sources */,
+				DD632D1A1F71B1D400362383 /* businessViewController.swift in Sources */,
+				DDCD7F811F6B960B003FA1C4 /* DealsViewController.swift in Sources */,
+				ED66B6681FC1F01600F6E70C /* bookViewController.swift in Sources */,
+				ED3DE3E9204F12E600DE3C7F /* RolePickerViewController.swift in Sources */,
+				50B4F9921FBE5EDF00343539 /* serviceTableViewCell.swift in Sources */,
+				500096231FB3E20B00176CC9 /* shopPictureCollectionViewCell.swift in Sources */,
+				50AE3FDF2035CF9500937417 /* GoogleMapShopProfileViewController.swift in Sources */,
+				ED727EC620539EB000375C40 /* shopInfoViewController.swift in Sources */,
+				DDF9EE771F44D9F2008A1A10 /* loginViewController.swift in Sources */,
+				ED1BC8E41FC1B5CF00F25485 /* myClientsViewController.swift in Sources */,
+				ED4077BC1FDC782900A60DCE /* editImagesViewController.swift in Sources */,
+				ED2749861FDAD84C00D88EF4 /* booking.swift in Sources */,
+				ED5F69A9201CEBD3004CFEF5 /* AddServiceViewController.swift in Sources */,
+				ED1DFA9E1FDAB59300213272 /* bookmarkTableViewController.swift in Sources */,
+				DDCD7F831F6B9653003FA1C4 /* NotificationsViewController.swift in Sources */,
+				ED6E63DE1FB2AA1A0028A667 /* createShopViewController.swift in Sources */,
+				EDA78288204C735400C292E4 /* SearchClientsViewController.swift in Sources */,
+				DDB6E62E1F49BCCC00C0D8D9 /* textFieldExtension.swift in Sources */,
+				ED27497F1FDAC88800D88EF4 /* shopProfileNavigationController.swift in Sources */,
+				ED8512391FD2DF8E00098740 /* shopPickerViewController.swift in Sources */,
+				DDCD7F7F1F6B95B9003FA1C4 /* SearchOptionsViewController.swift in Sources */,
+				DDCD7F871F6C8F62003FA1C4 /* ShopProfileViewController.swift in Sources */,
+				EDDB5284206740FF0050A0CB /* ClientPaymentsViewController.swift in Sources */,
+				ED727EC82053A79800375C40 /* RatingViewController.swift in Sources */,
+				ED27498A1FDB521300D88EF4 /* Hairdresser.swift in Sources */,
+				EDDB52822066DE220050A0CB /* PaymentMethods.swift in Sources */,
+				DDCD7F851F6C6B8C003FA1C4 /* MapViewController.swift in Sources */,
+				ED539A391FDC8AD800295449 /* editShopTeamTableViewController.swift in Sources */,
+				50107E0B202E434300D43F98 /* TeamTableViewController.swift in Sources */,
+				ED23F4D11FC1423800AF8B0E /* calendarViewController.swift in Sources */,
+				ED8FE053201FCE2400FEFFD3 /* ServicePickerViewController.swift in Sources */,
+				DDB6E6321F49C31600C0D8D9 /* signUpViewController.swift in Sources */,
+				ED5F69AB201D48A9004CFEF5 /* editShopInfoViewController.swift in Sources */,
+				ED1BC8E21FC1B28B00F25485 /* clientTableViewCell.swift in Sources */,
+				ED468F7B205460E80088916C /* addHairdresserViewController.swift in Sources */,
+				ED1DFAA01FDAB61600213272 /* bookmarkTableViewCell.swift in Sources */,
+				ED727EBE2051DF5E00375C40 /* InfoMapShopTableViewController.swift in Sources */,
+				ED90EE331FB4E45F00478E06 /* shopsTableViewCell.swift in Sources */,
+				EDD1BB10205802F3003605CA /* Address.swift in Sources */,
+				50B109F41FBE292600EAC595 /* notificationTableViewCell.swift in Sources */,
+				500DAED52028F05000750735 /* FilterViewController.swift in Sources */,
+				ED90EE311FB4ADB600478E06 /* shopsTableViewController.swift in Sources */,
+				DD382A241F373F0B0040F8E0 /* ViewController.swift in Sources */,
+				DDCD7F7C1F6B90E0003FA1C4 /* HomeViewController.swift in Sources */,
+				509FA4DD2024CA920041C8DE /* AvailabilityTableViewCell.swift in Sources */,
+				501516E62031C63A008ACEB7 /* InstagramFeed.swift in Sources */,
+				ED4077B61FDBDD7B00A60DCE /* manualBookingViewController.swift in Sources */,
+				ED8FE055201FCE4700FEFFD3 /* QuickServiceTableViewCell.swift in Sources */,
+				ED7879411FDBD1C300F20A45 /* hairdresserTableViewController.swift in Sources */,
+				DD632D201F71D6EF00362383 /* userProfileViewController.swift in Sources */,
+				ED6B2A561FD9C39500C7DC44 /* Deal.swift in Sources */,
+				ED727EC220537AE100375C40 /* AdminShopPickerViewController.swift in Sources */,
+				ED8A2BC81FBF6B6800A74A18 /* servicesTableViewController.swift in Sources */,
+				50944F452020BAC700F57741 /* HairdresserScheduleViewController.swift in Sources */,
+				ED9685221FA3DDC20084C58A /* Shop.swift in Sources */,
+				50B109FC1FBE383D00EAC595 /* Notification.swift in Sources */,
+				ED468F7D205468AE0088916C /* HairdresserSearchTableViewCell.swift in Sources */,
+				50B4F9901FBE584900343539 /* notificationsTableViewController.swift in Sources */,
+				DD632D1E1F71CD6500362383 /* adminShopProfileViewController.swift in Sources */,
+				501FE9752034B8DA00B3719B /* JSONShop.swift in Sources */,
+				DD382A2A1F373F0C0040F8E0 /* Fonzy.xcdatamodeld in Sources */,
+				EDA8F6A620B4A2870059453C /* NotificationCenterViewController.swift in Sources */,
+				ED1DFA9C1FDA96CC00213272 /* Bookmark.swift in Sources */,
+				ED2749841FDAD78D00D88EF4 /* bookingsTableViewController.swift in Sources */,
+				ED468F7F2054C5890088916C /* AddMyClientViewController.swift in Sources */,
+				ED8FE051201F714200FEFFD3 /* HamburguerMenuViewController.swift in Sources */,
+				ED791106205E9F8D00DB6D6B /* ShopImagesViewController.swift in Sources */,
+				ED2749881FDB06F600D88EF4 /* setBookingViewController.swift in Sources */,
+				ED7879451FDBD92300F20A45 /* pickServicesViewController.swift in Sources */,
+				ED539A371FDC817800295449 /* editServicesViewController.swift in Sources */,
+				509FA4DB2024C90B0041C8DE /* AvailabilityTableViewController.swift in Sources */,
+				50B109FA1FBE2AC300EAC595 /* notificationTableView.swift in Sources */,
+				50EEDBDF2062E3100009B41D /* StripeViewController.swift in Sources */,
+				ED727EBC2051DD1C00375C40 /* InfoMapShopViewController.swift in Sources */,
+				ED96854B1FA694940084C58A /* Service.swift in Sources */,
+				ED27498C1FDB952000D88EF4 /* editUserProfileViewController.swift in Sources */,
+				DD382A221F373F0B0040F8E0 /* AppDelegate.swift in Sources */,
+				ED1BC8E61FC1BE8E00F25485 /* addClientViewController.swift in Sources */,
+				500DAED720290FF400750735 /* MenuViewController.swift in Sources */,
+				DDB6E63C1F4B7FD800C0D8D9 /* locationViewController.swift in Sources */,
+				EDDB528A206848BF0050A0CB /* ShopMethods.swift in Sources */,
+				ED727EC420537AFA00375C40 /* ShopPickerTableViewCell.swift in Sources */,
+				ED2749821FDAD5D700D88EF4 /* myBookingTableViewCell.swift in Sources */,
+				ED727EC02052BF5E00375C40 /* BookingNavigationViewController.swift in Sources */,
+				5080B57620264BAD00A7C06B /* FonzyCutsViewController.swift in Sources */,
+				ED6C72E41FC0E2DE007BE92B /* hairdresserCollectionViewCell.swift in Sources */,
+				ED85123B1FD36D8F00098740 /* addShopViewController.swift in Sources */,
+				EDBFABE21FB0B19D0088179D /* User.swift in Sources */,
+				ED761CDE1FDA0579008BB9CF /* DealsTableViewCell.swift in Sources */,
+				ED4077BA1FDC70AA00A60DCE /* editShopProfileViewController.swift in Sources */,
+				ED78793F1FDBD1AD00F20A45 /* hairdresserTableViewCell.swift in Sources */,
+				ED8FE057201FF20E00FEFFD3 /* ScheduleConfirmationViewController.swift in Sources */,
+				EDDB5286206741FA0050A0CB /* CreditCardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A311F373F0C0040F8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD382A3A1F373F0C0040F8E0 /* FonzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD382A3C1F373F0C0040F8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD382A451F373F0C0040F8E0 /* FonzyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD382A371F373F0C0040F8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD382A1D1F373F0B0040F8E0 /* Fonzy */;
+			targetProxy = DD382A361F373F0C0040F8E0 /* PBXContainerItemProxy */;
+		};
+		DD382A421F373F0C0040F8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD382A1D1F373F0B0040F8E0 /* Fonzy */;
+			targetProxy = DD382A411F373F0C0040F8E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD382A251F373F0B0040F8E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD382A261F373F0B0040F8E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD382A2D1F373F0C0040F8E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD382A2E1F373F0C0040F8E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD382A471F373F0C0040F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD382A481F373F0C0040F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD382A4A1F373F0C0040F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B85F7D83008DBB2E6D113C /* Pods-Fonzy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fonzy/Fonzy.entitlements;
+				DEVELOPMENT_TEAM = 5DTRLBMX33;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Fonzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3zM.fonzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fonzy/Fonzy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD382A4B1F373F0C0040F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21741CAAD33E6322F9EED16 /* Pods-Fonzy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fonzy/Fonzy.entitlements;
+				DEVELOPMENT_TEAM = 5DTRLBMX33;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Fonzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3zM.fonzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fonzy/Fonzy-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DD382A4D1F373F0C0040F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A38F2978E4BB845C2A2766 /* Pods-FonzyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FonzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Biocore.FonzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonzy.app/Fonzy";
+			};
+			name = Debug;
+		};
+		DD382A4E1F373F0C0040F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E830C872880F9170A7FE26 /* Pods-FonzyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FonzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Biocore.FonzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonzy.app/Fonzy";
+			};
+			name = Release;
+		};
+		DD382A501F373F0C0040F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AC85B100989B02E7A8442A /* Pods-FonzyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FonzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Biocore.FonzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fonzy;
+			};
+			name = Debug;
+		};
+		DD382A511F373F0C0040F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E613CBB6C76726C781151C9 /* Pods-FonzyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FonzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Biocore.FonzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fonzy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD382A191F373F0B0040F8E0 /* Build configuration list for PBXProject "Fonzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD382A471F373F0C0040F8E0 /* Debug */,
+				DD382A481F373F0C0040F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD382A491F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "Fonzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD382A4A1F373F0C0040F8E0 /* Debug */,
+				DD382A4B1F373F0C0040F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD382A4C1F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "FonzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD382A4D1F373F0C0040F8E0 /* Debug */,
+				DD382A4E1F373F0C0040F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD382A4F1F373F0C0040F8E0 /* Build configuration list for PBXNativeTarget "FonzyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD382A501F373F0C0040F8E0 /* Debug */,
+				DD382A511F373F0C0040F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD382A281F373F0C0040F8E0 /* Fonzy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD382A291F373F0C0040F8E0 /* Fonzy.xcdatamodel */,
+			);
+			currentVersion = DD382A291F373F0C0040F8E0 /* Fonzy.xcdatamodel */;
+			path = Fonzy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD382A161F373F0B0040F8E0 /* Project object */;
+}

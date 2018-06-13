@@ -1,0 +1,6 @@
+framework module Pods_Fonzy {
+  umbrella header "Pods-Fonzy-umbrella.h"
+
+  export *
+  module * { export * }
+}
